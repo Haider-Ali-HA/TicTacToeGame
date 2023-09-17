@@ -49,7 +49,7 @@ const Board = () => {
     return (
         <>
         
-            <div className="flex justify-center dark:bg-black bg-white items-center h-[80vh] w-full">
+            <div className="flex font-poppin justify-center dark:bg-black bg-white items-center h-[80vh] w-full">
                 
                 {isWinner ? (
                     <>
@@ -62,7 +62,7 @@ const Board = () => {
                 ) : (
                     <>
                         <div className="flex flex-col justify-center items-center">
-                            <h1 className="mb-3 text-[25px] dark:text-white font-bold">Player <span className="text-red-600"> {isXTurn ? 'X' : 'O'} </span> your turn</h1>
+                            <h1 className="mb-3 text-[25px] dark:text-white font-extrabold">Player <span className="text-red-600"> {isXTurn ? 'X' : 'O'} </span> your turn</h1>
                             <div className="flex justify-center items-center">
                                 <Square click={() => handleClick(0)} value={state[0]} />
                                 <Square click={() => handleClick(1)} value={state[1]} />
