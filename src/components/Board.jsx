@@ -49,7 +49,7 @@ const Board = () => {
     return (
         <>
         
-            <div className="flex font-poppin justify-center dark:bg-black bg-white items-center h-[80vh] w-full">
+            <div className="flex font-poppin justify-center dark:bg-black bg-white items-center h-[550px] w-full">
                 
                 {isWinner ? (
                     <>
