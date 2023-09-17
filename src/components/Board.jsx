@@ -49,7 +49,7 @@ const Board = () => {
     return (
         <>
         
-            <div className="flex justify-center dark:bg-black bg-white items-center h-[100vh] w-full">
+            <div className="flex justify-center dark:bg-black bg-white items-center h-[80vh] w-full">
                 
                 {isWinner ? (
                     <>
